@@ -1,0 +1,79 @@
+<!-- Headings -->
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+<!-- Text -->
+<p></p>        - Paragraph
+<br>           - Line Break
+<hr>           - Horizontal Rule (Horizontal Line)
+<pre></pre>    - Preformatted Text
+
+<!-- Text Formatting -->
+<b></b>           - Bold Text
+<strong></strong> - Strong Importance (Bold by default)
+<i></i>           - Italic Text
+<em></em>         - Emphasized Text (Italic by default)
+<mark></mark>     - Highlighted/Marked Text
+<small></small>   - Smaller Text
+<del></del>       - Deleted Text (Strikethrough)
+<ins></ins>       - Inserted Text (Underlined by default)
+<sub></sub>       - Subscript Text
+<sup></sup>       - Superscript Text
+
+<!-- Generic Containers -->
+<div></div>    - Division (Block-level Container)
+<span></span>  - Span (Inline Container)
+
+<!-- Quotes -->
+<q></q>        - Inline Quotation (Short Quote)
+
+<!-- Lists -->
+<ul></ul> - Unordered List
+<ol></ol> - Ordered List
+<li></li> - List Item
+<dl></dl> - Description List
+<dt></dt> - Description Term
+<dd></dd> - Description Details
+
+<!-- Tables -->
+<table></table>         - Table
+<caption></caption>     - Table Caption (Title)
+<thead></thead>         - Table Header
+<tbody></tbody>         - Table Body
+<tfoot></tfoot>         - Table Footer
+<tr></tr>               - Table Row
+<th></th>               - Table Header Cell
+<td></td>               - Table Data Cell
+
+<!-- Links & Media -->
+<a href=""></a>
+<img src="" alt="">
+<video></video>
+
+<!-- Semantic Structure -->
+<header></header>
+<nav></nav>
+<main></main>
+<section></section>
+<article></article>
+<aside></aside>
+<footer></footer>
+
+<!-- Forms -->
+<form></form>
+<label></label>
+<input>
+<textarea></textarea>
+<select></select>
+<option></option>
+<button></button>
+<fieldset></fieldset>
+<meter></meter>
+<progress></progress>
+
+
+

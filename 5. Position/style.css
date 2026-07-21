@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background: lightgreen;
+}
+
+.parent {
+  width: 80%;
+  background: lightcoral;
+  position: relative;
+}
+
+.box {
+  width: 80%;
+  height: 120px;
+  margin: 10px;
+}
+
+.child1 {
+  background: lightslategrey;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.child2 {
+  background: rgb(119, 153, 124);
+}
+
+.child3 {
+  background: rgb(148, 95, 67);
+  /* position: sticky;
+  top: 30px; */
+}
+
+.child4 {
+  background: rgb(168, 12, 195);
+}
+
+.child5 {
+  background: rgb(86, 42, 18);
+}

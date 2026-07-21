@@ -1,0 +1,42 @@
+.parent {
+  border: 2px solid rgb(0, 33, 247);
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.child {
+  border: 10px solid black;
+  background: #f90000ac;
+  height: 100px;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent1 {
+  border: 2px solid rgb(0, 33, 247);
+  min-height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.child1 {
+  border: 10px solid black;
+  background: #f90000ac;
+  height: 100px;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  align-self: flex-start;
+}
