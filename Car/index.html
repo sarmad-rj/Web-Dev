@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(1, 1, 1);
+        height: 100vh;
+      }
+      .car {
+        width: 400px;
+        height: 250px;
+
+        background-image: url(./images/car.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+        position: absolute;
+        bottom: 0px;
+
+        animation: car 10s ease-in-out infinite;
+      }
+      .tire {
+        position: absolute;
+        top: 114px;
+        width: 400px;
+      }
+      img {
+        width: 64px;
+        height: 64px;
+        animation: tire 10s ease-in-out infinite;
+      }
+      .t1 {
+        position: absolute;
+        left: 63px;
+      }
+      .t2 {
+        position: absolute;
+        right: 61px;
+      }
+
+      @keyframes car {
+        0% {
+          left: 0;
+        }
+        50% {
+          left: 860px;
+        }
+        100% {
+          left: 0;
+        }
+      }
+
+      @keyframes tire {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(1200deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="car">
+      <div class="tire">
+        <img class="t1" src="./images/tire.png" alt="tire" />
+        <img class="t2" src="./images/tire.png" alt="tire" />
+      </div>
+    </div>
+  </body>
+</html>
